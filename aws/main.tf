@@ -1,8 +1,21 @@
-#----vpc----
-
+#####
+##AWS
+#####
 provider "aws" {
   region     = var.aws_region
 }
+
+############
+#----vpc----
+############
+
+
+
+#################
+#----Instance----
+#################
+
+
 
 ##Linux
 resource "aws_instance" "test" {
